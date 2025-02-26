@@ -1,0 +1,102 @@
+/* Basic Reset */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Nav bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Profile section*/
+
+.hero {
+    padding: 50px;
+
+}
+
+.hero img {
+    width: 150px;
+    height: 150ox;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+/* Skill Section */
+.skil-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.skill {
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 10px;
+    border border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid#ccc;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+}
+
+Form button:hover {
+    background-color: darkgreen;
+}

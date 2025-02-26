@@ -1,0 +1,36 @@
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: darkblue;
+}
+
+@keyframes movebox {
+    0% { transform: translatex(0);}
+    50% { transform: translatex(100);}
+    100% { transform: translatex(0);}
+    
+}
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: movebox 2s infinite;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {
+        opacity: 1;
+    }
+    
+}
+.fade-in {
+    opacity: 0;
+    animation: fadein 2s forwards;
+}

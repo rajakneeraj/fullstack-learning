@@ -1,0 +1,25 @@
+/* Basic Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin : 20px;
+    padding: 20px;
+}
+
+/* Element Secletor */
+ h1 {
+    color: blue;
+    text-align: center;
+ }
+
+ /* Class Seclector */
+ .red-text {
+    color: red;
+    font-weight: bold;
+
+ }
+ /* Id Seclector */
+ #unique {
+    font-size: 20px;
+    text-decoration: uppercase;
+ }
