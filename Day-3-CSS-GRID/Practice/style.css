@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* In CSS File if you change value of grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px; So, You can understand Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.box {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: bold;
+}
+
+/* In CSS File if you change value of grid-template-columns: value;
+    grid-template-rows: value; So, You can understand Grid */
+
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 150px;
+    gap: 15px;
+    background-color: #333;
+    padding: 10px;
+
+}
+
+.box1 {
+    background-color: lightcoral;
+    color-scheme: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
