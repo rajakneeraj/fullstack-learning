@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Animation Box */
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Bounce Animation */
+.bounce {
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Rotate Animation */
+.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Scale Animation */
+.scale {
+    animation: scale 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.5); }
+}
+
+/* Fade Animation */
+.fade {
+    animation: fade 2s ease-in-out infinite alternate;
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
